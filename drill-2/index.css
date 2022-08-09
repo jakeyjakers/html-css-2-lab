@@ -1,0 +1,76 @@
+header{
+    width: 95vw;
+    border: 3px solid black;
+    height: 28vh;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    
+}
+#rect-tall{
+    width: 5vw;
+    background-color: purple;
+    height: 20vh;
+    position: absolute;
+    bottom: 0px;
+    margin: 5px;
+}
+#rect-wide{
+    width: 18vw;
+    background-color: green;
+    height: 23vh;
+    position: absolute;
+    bottom: 0px;
+    left: 100px;
+    margin: 5px;
+}
+#circle{
+    height: 130px;
+    width: 130px;
+    background-color: lightblue;
+    position: absolute;
+    bottom: 0px;
+    left: 360px;
+    border-radius: 100px;
+    margin: 5px;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.rect{
+    width: 90vw;
+    height: 75vh;
+    border: 5px dotted gray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    
+}
+.inner-rect{
+    width: 70vw;
+    height: 35vh;
+    border: none;
+    background-color: lightyellow;
+    box-shadow: 5px 5px 5px;
+
+}
+.text-box{
+ width: 500px;
+ height: 400px;
+ background-color: aqua;
+ margin-top: 20px;
+ align-items: center;
+ position: relative;
+ box-shadow: 2px 2px 5px;
+}
+#txt{
+    position: absolute;
+    top:110px
+}
